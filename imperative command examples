@@ -6,3 +6,8 @@
 > kubectl set image deployment nginx nginx=nginx:1.18 > kubectl create –f nginx.yaml
 > kubectl replace –f nginx.yaml
 > kubectl delete –f nginx.yaml
+
+
+> kubectl rollout status deployment/myapp-deployment
+> kubectl rollout history deployment/myapp-deployment
+> kubectl rollout undo deployment/myapp-deployment
