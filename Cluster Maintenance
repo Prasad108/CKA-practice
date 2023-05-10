@@ -1,0 +1,5 @@
+# to restart the kubelet
+sudo -i
+systemctl status kubelet 
+systemctl start kubelet 
+systemctl enable kubelet
